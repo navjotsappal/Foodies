@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorBlack">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:padding="10dp"
+        android:text="ITEM"
+        android:textColor="@color/colorWhite"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="SOBEYS"
+        android:textColor="@color/colorWhite"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="WALMART"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="1"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="QTY"
+        android:textSize="16dp"
+        android:textColor="@color/colorWhite"
+        android:layout_weight="1"
+        android:padding="10dp"
+        />
+</LinearLayout>

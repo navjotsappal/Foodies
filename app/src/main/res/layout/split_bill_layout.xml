@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <include layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+        <TextView
+            android:id="@+id/editTextSplit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="80dp"
+            android:textAlignment="center"
+            android:text="SPLIT BILL AMONG USERS"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/editTextUserNumber"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editTextSplit"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:inputType="number"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginTop="30dp"
+
+            android:hint="Enter Number of Users (Upto 10)"
+            android:padding="10dp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editTextBill"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/editTextUserNumber"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:inputType="number|numberDecimal"
+            android:background="@drawable/edit_text_border"
+
+            android:hint="Enter Bill Amount "
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/buttonCalculateBill"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_below="@+id/editTextBill"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:text="SPLIT BILL"
+            android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/editTextViewBill"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/buttonCalculateBill"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:inputType="number"
+            android:background="@android:color/transparent"
+
+            android:hint="Bill Split per Person "
+            android:textAlignment="center"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+
+

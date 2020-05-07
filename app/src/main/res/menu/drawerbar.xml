@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+    <item
+        android:id="@+id/Login"
+        android:title="Sign In/Up"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        />
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_outline_black_24dp"
+        />
+    <item android:id="@+id/Orders"
+        android:title="Maps"
+        android:icon="@drawable/ic_place_black_24dp"
+        />
+    <item android:id="@+id/neworder"
+        android:title="New Orders"
+        android:icon="@drawable/ic_library_add_black_24dp"
+        />
+    <item android:id="@+id/Recipes"
+        android:title="Recipes"
+        android:icon="@drawable/ic_room_service_black_24dp"
+        />
+    <item android:id="@+id/Logout"
+        android:title="LogOut"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        />
+
+    <item android:id="@+id/Splitbill"
+        android:title="Splitbills"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        />
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorWhite"/>
+            <corners android:radius="4dp" />
+            <stroke
+                android:color="@color/colorBlack"
+                android:width="2dp"
+                />
+        </shape>
+    </item>
+
+
+</selector>
+
+
+    <!-- Reference [8]: Alex Jolig, “How to have EditText with border in Android Lollipop”, stackoverflow.com, para. 5, Dec. 26, 2017. [Online]. Available:https://stackoverflow.com/questions/35762006/how-to-have-edittext-with-border-in-android-lollipop [Accessed Apr.1, 2018].
+     -->

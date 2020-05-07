@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txtgrocery"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+    <!--</LinearLayout>-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/radioStore"
+        android:layout_width="170dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right">
+
+        <RadioButton
+            android:id="@+id/radioSobeys"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Price1" />
+
+        <RadioButton
+            android:id="@+id/radioWalmart"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="Price2" />
+
+    </RadioGroup>
+</LinearLayout>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quantity"
+        android:entries="@array/quantities">
+    </Spinner>
+</LinearLayout>
